@@ -12,3 +12,5 @@ Soy Diego Cordero, apasionado de la ciberseguridad, especialmente ofensiva. En e
 
 Me desempeñé como Ingeniero de Ciberseguridad y Redes, trabajando con soluciones de seguridad perimetral de distintas marcas. Entre mis pasiones están las automatizaciones, si hay algo que tiende a ser muy manual, lo automatizo.
 También me gusta apoyar en mis tiempos libres a las comunidades de tecnología Cloud, tanto pública como [AWS](https://aws.amazon.com/) y privada, como las impulsadas por la[CNCF](https://www.cncf.io/). 
+
+# Actualización
