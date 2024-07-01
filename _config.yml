@@ -14,7 +14,7 @@ timezone: America/Bogota
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title:  Ciberseguridad, DevOps y DevSecOps# the main title
+title:  Ciberseguridad, DevOps y DevSecOps  # the main title
 
 tagline: Apuntes, laboratorios, writeups y más. # it will display as the sub-title
 
