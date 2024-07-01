@@ -18,7 +18,7 @@ This documentation describe the steps for resolute the [S4vitar's Pivoting Lab](
 6. [Brainpan](https://www.vulnhub.com/entry/brainpan-1,51/)
 
 In the next figure, we can see how to are connected these machines.
-![Pivoting Lab](/assets/img/posts/2024/VulnHub/eCPPTv2/pivoting.png)
+![Pivoting Lab](/assets/img/posts/2024/VulnHub/eCPPTv2/pivoting_lab.png)
 
 ![1. Instalación de librerías necesarias](/assets/img/posts/2024/HTB/Builder/builder.webp){: w="920" h="450" }
 
