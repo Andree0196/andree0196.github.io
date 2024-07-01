@@ -14,9 +14,9 @@ timezone: America/Bogota
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Notas de Ciberseguridad Ofensiva # the main title
+title:  Ciberseguridad, DevOps y DevSecOps# the main title
 
-tagline: Apuntes, writeups y más. # it will display as the sub-title
+tagline: Apuntes, laboratorios, writeups y más. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Recopilación de notas, writeups y apuntes relacionados al Hacking Ético.

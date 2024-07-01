@@ -419,12 +419,22 @@ sudo apt install nfs-kernel-server
 # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
 #
 /home/k8s-admin/kubernetes-nfs  *(rw,sync,no_subtree_check,no_root_squash)
-####################
+```
+
+
+- Crear el directorio a compartir, y editar los permisos.
+
+```console
 mkdir Kubernetes
 sudo chown -R nobody:nogroup /home/k8s-admin/kubernetes-nfs/
 sudo chmod 777 kubernetes-nfs/
- sudo exportfs -a
- sudo systemctl restart nfs-kernel-server
+```
+
+- Aplicar cambios y reiniciar el servicio `nfs-kernel-server`.
+
+```console
+sudo exportfs -a
+sudo systemctl restart nfs-kernel-server
 ```
 
 - En el servidor `proxy`, crear el fichero `nfs-pv.yaml`, el cual definirá la configuración del volumen persistente a crear.
