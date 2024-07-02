@@ -476,7 +476,15 @@ kubectl apply -f nfs-pv.yaml
 ```
 
 ### Instalación de WordPress a través de Helm.
-- Añadir el repo de `birname` y actualizarlo.
+- Descargar el binario de Helm en el server `proxy`, descomprimirlo, darle permisos de ejecución y copiarlo hacia la ruta `/usr/local/bin`.
+
+```console
+wget "https://get.helm.sh/helm-v3.15.2-linux-amd64.tar.gz"
+tar -zxvf helm-v3.15.2-linux-amd64.tar.gz
+sudo mv ./linux-amd64/helm /usr/local/bin/
+```
+
+- Añadir el repo de `bitnami` y actualizarlo.
 
 ```console
 helm repo add bitnami https://charts.bitnami.com/bitnami
